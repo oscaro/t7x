@@ -1,4 +1,4 @@
-(defproject com.oscaro/t7x "0.1.0"
+(defproject com.oscaro/t7x "0.1.1-SNAPSHOT"
   :description "Transifex API client"
   :url "https://github.com/oscaro/t7x"
   :license {:name "Eclipse Public License"
