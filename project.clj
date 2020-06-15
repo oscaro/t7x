@@ -3,6 +3,14 @@
   :url "https://github.com/oscaro/t7x"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :deploy-repositories [["snapshots" {:url "https://repo.clojars.org"
+                                      :username :env/clojars_username
+                                      :password :env/clojars_password
+                                      :sign-releases false}]
+                        ["releases"  {:url "https://repo.clojars.org"
+                                      :username :env/clojars_username
+                                      :password :env/clojars_password
+                                      :sign-releases false}]]
   :dependencies [[org.clojure/clojure            "1.8.0"]
                  [clj-http                       "3.7.0"]]
   :profiles {:dev {:global-vars {*warn-on-reflection* true}
