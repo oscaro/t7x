@@ -12,9 +12,9 @@
                                       :password :env/clojars_password
                                       :sign-releases false}]]
   :dependencies [[org.clojure/clojure            "1.8.0"]
-                 [clj-http                       "3.7.0"]]
+                 [clj-http                       "3.13.1"]]
   :profiles {:dev {:global-vars {*warn-on-reflection* true}
-                   :dependencies [[org.clojure/tools.namespace "0.2.11"]
-                                  [dk.ative/docjure            "1.11.0"]]
+                   :dependencies [[org.clojure/tools.namespace "1.5.0"]
+                                  [dk.ative/docjure            "1.21.0"]]
 
                    :source-paths ["dev"]}})
