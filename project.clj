@@ -3,6 +3,7 @@
   :url "https://github.com/oscaro/t7x"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :plugins [[lein-marginalia "0.9.1"]]
   :deploy-repositories [["snapshots" {:url "https://repo.clojars.org"
                                       :username :env/clojars_username
                                       :password :env/clojars_password
