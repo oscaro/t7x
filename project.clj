@@ -11,7 +11,7 @@
                                       :username :env/clojars_username
                                       :password :env/clojars_password
                                       :sign-releases false}]]
-  :dependencies [[org.clojure/clojure            "1.8.0"]
+  :dependencies [[org.clojure/clojure            "1.12.2"]
                  [clj-http                       "3.13.1"]]
   :profiles {:dev {:global-vars {*warn-on-reflection* true}
                    :dependencies [[org.clojure/tools.namespace "1.5.0"]
